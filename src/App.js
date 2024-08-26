@@ -18,7 +18,6 @@ function App() {
 
   return (
     <div>
-      develop test
       <h1>Response from Spring Boot API</h1>
       <button onClick={() => { setClick(!click) }}>button</button>
       <p>{message}</p> {/* API에서 받은 메시지를 출력 */}
